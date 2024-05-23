@@ -1,0 +1,17 @@
+model: tf_efficientnet_l2.ns_jft_in1k_475
+pretrained: True
+num_classes: 1000
+img_size: 475
+batch_size: 8
+freeze_layer: 5
+
+aa: rand-m9-mstd0.5
+
+# amp: True
+# amp_impl: apex
+sync_bn: True
+
+epochs: 100
+lr: 0.01
+sched: plateau
+patience_epochs: 5

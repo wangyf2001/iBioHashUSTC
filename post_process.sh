@@ -1,0 +1,1 @@
+python post_process.py --config_file post_config/market_w_tricks.yaml --feat_dir /home/data1/changhao/iBioHash/Results/features/eva_large_query_gallery_fr6_ckp/ckp_75

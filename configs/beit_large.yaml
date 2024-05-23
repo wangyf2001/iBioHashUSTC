@@ -1,0 +1,20 @@
+model: beit_large_patch16_512.in22k_ft_in22k_in1k
+pretrained: True
+# /home/data1/changhao/Weights/beit_large_patch16_512_pt22k_ft22kto1k.pth
+num_classes: 1000
+img_size: 512
+batch_size: 4
+freeze_layer: 18
+
+aa: rand-m9-mstd0.5
+
+# amp: True
+# amp_impl: apex
+sync_bn: True
+
+epochs: 100
+lr: 0.01
+sched: plateau
+patience_epochs: 5
+
+# output: /home/data1/changhao/iBioHash/Record/cls_baseline/beit/beit_size512

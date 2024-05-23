@@ -1,0 +1,1 @@
+python /home/data1/changhao/iBioHash/Codes/pytorch-image-models-main/post_process.py --config_file /home/data1/changhao/iBioHash/Codes/pytorch-image-models-main/post_config/market_w_tricks.yaml --feat_dir /home/data1/zgp/mmsport/fea/vit_l_openai_colorjiter_fea

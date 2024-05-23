@@ -1,0 +1,17 @@
+model: vit_large_patch14_clip_336.openai_ft_in12k_in1k
+pretrained: True
+num_classes: 1000
+img_size: 336
+batch_size: 16
+freeze_layer: 18
+
+aa: rand-m9-mstd0.5
+
+# amp: True
+# amp_impl: apex
+sync_bn: True
+
+epochs: 100
+lr: 0.01
+sched: plateau
+patience_epochs: 5
