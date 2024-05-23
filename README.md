@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PyTorch Image Models
 - [Sponsors](#sponsors)
 - [What's New](#whats-new)
@@ -687,3 +688,7 @@ Several weights included or references here were pretrained with proprietary dat
 ### Latest DOI
 
 [![DOI](https://zenodo.org/badge/168799526.svg)](https://zenodo.org/badge/latestdoi/168799526)
+=======
+# iBioHashUSTC
+iBioHash 2024 the method of USTC
+>>>>>>> 774fc3d5a1f8db344ab2e43a03fa1da1b7b33942
